@@ -1,4 +1,4 @@
-# Add to Cart Using Modal (React + Tailwind)
+# Amart Cloth
 
 ## Project Description
 This project fetches product data from Fake Store API and allows users to add products to cart using a modal interface.
