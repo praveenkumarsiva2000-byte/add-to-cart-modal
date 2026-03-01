@@ -7,8 +7,8 @@ export default function Navbar({ count = 0, onOpenCart }) {
         <div className="flex items-center gap-3">
           <div className="h-10 w-10 bg-indigo-600 text-white rounded flex items-center justify-center font-bold">AC</div>
           <div>
-            <div className="text-lg font-semibold">Add-to-Cart Modal</div>
-            <div className="text-xs text-gray-500">React + Tailwind demo</div>
+            <div className="text-lg font-semibold">Amart Cloth</div>
+            {/* subtitle removed as requested */}
           </div>
         </div>
 
