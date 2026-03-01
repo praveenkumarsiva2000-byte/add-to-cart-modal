@@ -5,7 +5,13 @@ export default function Navbar({ count = 0, onOpenCart }) {
     <header className="bg-white shadow">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="h-10 w-10 bg-indigo-600 text-white rounded flex items-center justify-center font-bold">AC</div>
+          <div
+            className="h-10 w-10 bg-indigo-600 text-white rounded flex items-center justify-center font-bold"
+            title="Amart Cloth"
+            aria-label="Amart Cloth logo"
+          >
+            AC
+          </div>
           <div>
             <div className="text-lg font-semibold">Amart Cloth</div>
             {/* subtitle removed as requested */}

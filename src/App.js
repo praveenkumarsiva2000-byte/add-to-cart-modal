@@ -28,7 +28,7 @@ export default function App() {
   function addToCart(product) {
     const exists = cart.find((p) => p.id === product.id);
     if (exists) {
-      alert('Product already in cart');
+      alert('Item already added to the cart');
       return;
     }
     setCart((c) => [...c, product]);
