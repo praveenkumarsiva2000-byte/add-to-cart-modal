@@ -56,7 +56,7 @@ export default function App() {
         )}
       </main>
 
-      <footer className="text-center py-4 text-sm text-gray-600">Built with React + Tailwind</footer>
+      <footer className="text-center py-4 text-sm text-gray-600">Copyrights reserved by amartcloth @2026</footer>
 
       <CartModal
         isOpen={isModalOpen}
